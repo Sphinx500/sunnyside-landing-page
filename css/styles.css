@@ -18,49 +18,90 @@
 }
 
 *{
-    box-sizing: border-box;
+    box-sizing: inherit;
     margin: 0;
-    padding: 0;
-    font-family: 'Barlow', sans-serif;
+    padding: 0;    
     /* font-family: 'Fraunces', serif; */
 }
 
-header{
-    /* TODO Arreglar la variable de color */
-    background-color: #3dbeff;
-    width: 100%;
-    /* border: 1px solid blue; */
-    height: 80px;
+html{
+    font-size:62.5%;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Barlow', sans-serif;
+    font-weight: 600;
+    line-height: 1.6;
+}
+.row{
+    max-width: 144rem;
+    margin: 0 auto;
+}
+.header{
+background-image: url(../images/desktop/image-header.jpg);
+background-size: cover;
+background-position: center;
+height:100vh;
+position: relative;
+}
+
+.header__arrow{
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+}
+
+.nav{
+    padding-top: 3rem;
+    margin: 0 3rem;
+}
+.nav_flex{
     display: flex;
-    justify-content: space-between;
+    align-items: center;
 }
 
-.logo-header{
-  width:200px;
- align-self: flex-start;
- height: 100%;
- padding: 30px;
+.nav_logo{
+margin-right: auto;
 }
-.menu-header{
-    justify-content: flex-end;
-    margin-top:10px;
-    padding: 20px;
-    width: 400px;
-    height: 100%;
+.nav_list{
+    list-style: none;
 }
-.menu-header ul{
-    margin: 0;
-    overflow: hidden;
-    list-style-type: none;
+.nav_item{
+    display: inline-block;
+    padding:0 2rem;
 }
 
-.menu-header ul li{
-    display: inline;
-}
-
-.menu-header ul li a{
-    color: white;
+.nav_link{
     text-decoration: none;
-    margin-left: 15px;
-    font-weight: bold;
+    color: #fff;
+    font-size: 1.5rem;
+}
+
+.btn{
+    border: none;
+    outline: none;
+    border-radius:none;
+    cursor: pointer;
+    background: transparent;
+}
+
+.btn__white{
+    padding:1.5rem 2.5rem;
+    background-color: #fff;
+    color: black;
+    border-radius:10rem;
+    font-family: 'Fraunces', serif;
+    font-weight: 900;
+}
+.heading-primary{
+    position: absolute;
+    top:30%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    text-transform: uppercase;
+    font-size: 4rem;
+    font-family: 'Fraunces', sans-serif;
+    font-weight: 900;
+    color:white;
 }
