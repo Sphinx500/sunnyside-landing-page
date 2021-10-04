@@ -105,3 +105,50 @@ margin-right: auto;
     font-weight: 900;
     color:white;
 }
+
+.section-about__flex{
+    display: flex;
+}
+
+.section-about__content{
+    padding:0 10vw;
+    align-self: center;
+    flex: 0 0 50%;
+}
+
+.section-about__content--text{
+    margin: 2rem 0 2rem 0;
+}
+
+.section-about__image--photo{
+    width: 100%;
+    display: block;
+}
+.heading-secondary{
+    font-size:3rem;
+    font-weight:900;
+    line-height: 1;
+    color: #23303e;
+}
+
+.paragraph{
+    font-size:1.5rem;
+    font-family: 'Fraunces', sans-serif;
+}
+
+.btn__black{
+    text-transform: uppercase;
+    font-family: 'Fraunces', sans-serif;
+    font-weight:900;
+    font-size: 1.4rem;
+    padding: 0;
+}
+
+.btn__black--1{
+    border-bottom: 3px solid #fad400;
+}
+
+.btn__black--2{
+    border-bottom: 3px solid #fe7867;
+    align-self: flex-start;
+}
