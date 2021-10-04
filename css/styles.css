@@ -152,3 +152,29 @@ margin-right: auto;
     border-bottom: 3px solid #fe7867;
     align-self: flex-start;
 }
+
+.section-services__flex{
+display: flex;
+}
+
+.section-services__image{
+    flex: 0 0 50%;
+}
+
+.section-services__image--photo{
+    flex: 0 0 50%;
+    width: 100%;
+    display: block;
+}
+
+.section-services__content{
+    flex: 0 0 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 10vw;
+}
+
+.section-services__content--text{
+    margin: 2rem 0;
+}
