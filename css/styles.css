@@ -174,7 +174,73 @@ display: flex;
     justify-content: center;
     padding: 0 10vw;
 }
-
 .section-services__content--text{
     margin: 2rem 0;
 }
+
+
+
+.section-projects__flex{
+    display: flex;
+}
+
+.section-projects__image{
+    flex: 0 0 50%;
+}
+
+.section-projects__photo{
+    width: 100%;
+    display: block;
+}
+
+.heading-tertiary{
+    text-align: center;
+    font-size:3rem;
+    font-family: 'Fraunces', sans-serif;
+    font-weight: 900;
+}
+
+.heading-secondary{
+    text-align: center;
+    font-size:3rem;
+    font-family: 'Fraunces', sans-serif;
+    font-weight: 900;
+}
+
+.graphicText{
+    text-align: center;
+    font-size:1.5rem;
+    color: #25564b;
+    padding: 0 10hw;
+}
+
+.photographyText{
+    text-align: center;
+    font-size:1.5rem;
+    color: #25564b;
+    padding: 0 12hw;
+}
+
+.graphic-textBox{
+    margin-top:-12rem;
+    opacity: 0;
+}
+
+.photography-textBox{
+    margin-top:-12rem;
+    opacity: 0;
+}
+
+.section-projects__photo--1:hover + .graphic-textBox{
+    transition: all .2s;
+    opacity: 1;
+    transform: translateY(-8rem);
+}
+
+.section-projects__photo--2:hover + .photography-textBox{
+    transition: all .2s;
+    opacity: 1;
+    transform: translateY(-8rem);
+}
+
+
