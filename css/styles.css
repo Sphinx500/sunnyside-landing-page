@@ -302,3 +302,14 @@ body {
     font-size: 1.1rem;
     color: #a7abae;
 }
+
+
+.gallery_images{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(25rem, 1fr));
+}
+
+.gallery_images--1, .gallery_images--2, .gallery_images--3, .gallery_images--4{
+    width: 100%;
+    display: block;
+}
